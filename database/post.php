@@ -5,7 +5,6 @@ require 'Connection.php';
 var_dump($_REQUEST);
 
 
-
 $category = (int)$_REQUEST['Category'];
 $gNumber = (int)$_REQUEST['GNumber'];
 $pNumber = $_REQUEST['PNumber'];
