@@ -14,7 +14,7 @@
         </div>
         <div class="row">
             <div class="one-half column">
-                <form method="post" action="" enctype="multipart/form-data">
+                <form method="post" action="database/post.php" enctype="multipart/form-data">
             <!-------------------------------------------------------------->
 
                 <label for="Category">Category</label>
