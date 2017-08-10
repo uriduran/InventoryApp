@@ -7,13 +7,14 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-    <div class="container">
-        <div class="center">
-            <h1>Create New Inventory Listing</h1>
-        </div>
+<div class="wrapper">
+    <div id="form" class="container">
         <div class="row">
+                <!--<div class="center">
+                    <h1>Add Inventory</h1>
+                </div>-->
             <div class="one-half column">
+
                 <form method="post" action="database/post.php" enctype="multipart/form-data">
             <!-------------------------------------------------------------->
 
@@ -54,7 +55,11 @@
                 <input id="submit" class="button-primary" type="submit" name="submit" value="submit">
             </div>
                 </form> 
-  </div>
+    </div>
+    <div id="recent">
+        <h2>test</h2>
+    </div>
+</div>
 
 <!----FOR TESTING---->
 

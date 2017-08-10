@@ -22,3 +22,30 @@ h1 {
 #submit {
     width: 35%;
 }
+
+#form {
+    width: 80%;
+    float: left;
+}
+
+#recent {
+    float: right;
+    background-color: grey;
+    width: 20%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper, html, body {
+    height: 100%;
+}
+
+.row {
+    margin: auto;
+}
+
+.one-half
